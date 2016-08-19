@@ -19,7 +19,7 @@ var pieChart = function() {
             this.size = arg.size || 330;
             this.tooltipPar = (typeof arg.tooltip == 'boolean') ? arg.tooltip : true;
             this.randomColors = arg.randomColors;
-            this.midCircleSize = arg.midCircle ? arg.midCircle / 2 : .4;
+            this.midCircleSize = (arg.midCircle || arg.midCircle === false || arg.midCircle === 0) ? arg.midCircle / 2 : .4;
             if (arg.colors && arg.colors.length) this.colors.list = arg.colors;
         },
         drawPie: function() {
