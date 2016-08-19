@@ -14,6 +14,7 @@ Usage:
 ```
 
 > Create container
+
 ```
 <div class="pie-chart-container"></div>
 ```
@@ -30,6 +31,7 @@ pieChart({
 
 #### Data exaple:
 > [Deafault]
+
 ```
 var data = [
         {
@@ -55,6 +57,7 @@ pieChart({
 }).drawPie();
 ```
 > [dataType: "nameValue"]
+
 ```
 var data = {
     thing1: 200,
