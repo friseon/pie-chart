@@ -4,7 +4,7 @@
 
 ## Get started
 
-Usage:
+### Usage:
 
 ```
 <link rel="stylesheet" href="pie-chart.css">
@@ -13,13 +13,13 @@ Usage:
 <script src="pie-chart.js"></script>
 ```
 
-#### Create container:
+### Create container:
 
 ```
 <div class="pie-chart-container"></div>
 ```
 
-#### Create chart:
+### Create chart:
 
 ```
 pieChart({
@@ -29,8 +29,8 @@ pieChart({
 
 ## Options
 
-#### Data exaple:
-*[Default]*
+### Data exaple:
+**[Default]**
 
 ```
 var data = [
@@ -56,7 +56,7 @@ pieChart({
     data: data
 }).drawPie();
 ```
-*[dataType: "nameValue"]*
+**[dataType: "nameValue"]**
 
 ```
 var data = {
@@ -72,7 +72,7 @@ pieChart({
 }).drawPie();
 ```
 ---
-#### size
+### Size
 
 Size of chart, default: 330.
 ```
@@ -82,7 +82,7 @@ pieChart({
 }).drawPie();
 ```
 ---
-#### tooltip
+### Tooltip
 
 Tooltip on hover segments, default: true.
 ```
@@ -92,7 +92,7 @@ pieChart({
 }).drawPie();
 ```
 ---
-#### midCircle
+#### MidCircle
 
 MidCircle is a size of circle in the middle of chart, default: .8.
 ```
@@ -103,7 +103,7 @@ pieChart({
 ```
 
 ---
-#### colors
+#### Colors
 
 Colors is a list with colors of segments.
 ```
