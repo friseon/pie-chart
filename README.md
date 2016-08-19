@@ -1,8 +1,8 @@
 ## Pie Chart
 
-> Easy plugin to create pie charts with toggle items.
+> Simple plugin to create pie charts with toggle items.
 
-## Installation
+## Get started
 
 Usage:
 
@@ -13,13 +13,13 @@ Usage:
 <script src="pie-chart.js"></script>
 ```
 
-> Create container
+#### Create container:
 
 ```
 <div class="pie-chart-container"></div>
 ```
 
-> Create chart:
+#### Create chart:
 
 ```
 pieChart({
@@ -30,7 +30,7 @@ pieChart({
 ## Options
 
 #### Data exaple:
-> [Deafault]
+*[Default]*
 
 ```
 var data = [
@@ -56,7 +56,7 @@ pieChart({
     data: data
 }).drawPie();
 ```
-> [dataType: "nameValue"]
+*[dataType: "nameValue"]*
 
 ```
 var data = {
@@ -72,7 +72,7 @@ pieChart({
 }).drawPie();
 ```
 ---
-> size
+#### size
 
 Size of chart, default: 330.
 ```
@@ -82,7 +82,7 @@ pieChart({
 }).drawPie();
 ```
 ---
-> tooltip
+#### tooltip
 
 Tooltip on hover segments, default: true.
 ```
@@ -92,7 +92,7 @@ pieChart({
 }).drawPie();
 ```
 ---
-> midCircle
+#### midCircle
 
 MidCircle is a size of circle in the middle of chart, default: .8.
 ```
@@ -103,7 +103,7 @@ pieChart({
 ```
 
 ---
-> colors
+#### colors
 
 Colors is a list with colors of segments.
 ```
