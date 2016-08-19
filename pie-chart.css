@@ -1,0 +1,53 @@
+.pie-chart-container {
+  background-color: #e9efec;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.pie-chart-list-buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  padding: 0;
+  margin: 30px;
+  width: 400px;
+}
+
+.pie-chart-button {
+  margin: 8px;
+  font-family: "Oswald", "Helvetica Newe", Helvetica, sans-serif;
+  font-size: 13px;
+  cursor: pointer;
+  border: none;
+  margin-right: 5px;
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+  outline: none;
+  border-radius: 2px;
+  transition: background-color .1s ease, color .2s ease;
+  white-space: nowrap;
+}
+  
+.pie-chart-button.active {
+    font-weight: 400;
+    box-shadow: 0 0 2px 2px #1F6CA5;
+    color: white;
+}
+
+.pie-chart {
+  display: inline-block;
+  margin: 40px;
+  transition: all .3s ease;
+}
+
+.pie-chart-tooltip {
+  position: absolute;
+  display: none;
+  width: auto;
+  height: auto;
+  background: #FFF;
+  padding: 12px;
+}
