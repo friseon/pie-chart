@@ -92,7 +92,7 @@ pieChart({
 }).drawPie();
 ```
 ---
-#### MidCircle
+### MidCircle
 
 MidCircle is a size of circle in the middle of chart, default: .8.
 ```
@@ -103,7 +103,7 @@ pieChart({
 ```
 
 ---
-#### Colors
+### Colors
 
 Colors is a list with colors of segments.
 ```
